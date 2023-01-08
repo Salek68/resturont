@@ -1,0 +1,12 @@
+/* reset tags */
+a {
+    text-decoration: solid;
+}
+/* Footer styles */
+.border-solid{
+
+    border-style: solid !important;
+}
+.bg-green{
+    background-color: green;
+}
