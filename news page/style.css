@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    user-select: none;
+}
+.title {
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.para {
+    color: gray;
+    text-align: center;
+}
+.container {
+    margin: 180px 2px ;
+}
+.projects-list {
+    padding: 0%;
+    width: 88%;
+    margin: 60px auto;
+}
+
+.project {
+    display: inline-block;
+    margin: 10px 1.8%;
+    width: 21%;
+    
+}
+
+.project img {
+    margin-top: 50px;
+    margin-right: 150px;
+    display: block;
+    max-width: 110%;
+    width: 350px;
+    height: 220px;
+}
