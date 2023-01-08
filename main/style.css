@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+.plus-btn {
+    background-color: rgb(255, 190, 0);
+    float: left;
+    box-shadow: 0px 0px 1px 0px rgb(255, 155, 0);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.icon {
+    font-size: 3em;
+    margin: 1px;
+    color: aliceblue;
+}
+.main {
+    display: inline;
+}
+.title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    user-select: none;
+    margin: 200px 200px;
+}
+.container{
+    display: inline;
+}
+.picture {
+    border-radius: 4px;
+    margin: -220px 0;
+}
+.para {
+    color: gray;
+    user-select: none;
+    margin: 200px;
+}
