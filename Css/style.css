@@ -12,7 +12,14 @@ a {
 .bg-green {
     background-color: green;
 }
-
+footer{
+    font-size: large !important;
+    font-weight: 800 !important;
+}
+h6{
+    font-size: large !important;
+    font-weight: 800 !important;
+}
 /* color themes */
 .bg-yellow {
     background-color: #fab718;
@@ -28,4 +35,17 @@ a {
 
 .color-black {
     color: #020304;
+}
+
+
+
+/* webfonts */
+@font-face {
+    font-family: "vazir";
+    src: url("../webfonts/vazir-font-v16.1.0/Vazir-Light.woff") format("woff"),
+}
+
+/* add fonts to site */
+* {
+    font-family: 'vazir';
 }
