@@ -2,11 +2,30 @@
 a {
     text-decoration: solid;
 }
+
 /* Footer styles */
-.border-solid{
+.border-solid {
 
     border-style: solid !important;
 }
-.bg-green{
+
+.bg-green {
     background-color: green;
+}
+
+/* color themes */
+.bg-yellow {
+    background-color: #fab718;
+}
+
+.color-yellow {
+    color: #fab718;
+}
+
+.bg-black {
+    background-color: #020304;
+}
+
+.color-black {
+    color: #020304;
 }
