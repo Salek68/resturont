@@ -3,6 +3,7 @@ a {
     text-decoration: solid;
 }
 
+
 /* Footer styles */
 .border-solid {
 
@@ -12,14 +13,18 @@ a {
 .bg-green {
     background-color: green;
 }
+
 footer{
-    font-size: large !important;
-    font-weight: 800 !important;
+    font-size: medium !important;
+    font-weight: 500 !important;
 }
+
 h6{
-    font-size: large !important;
-    font-weight: 800 !important;
+    font-size: medium !important;
+    font-weight: 600 !important;
 }
+
+
 /* color themes */
 .bg-yellow {
     background-color: #fab718;
@@ -36,7 +41,6 @@ h6{
 .color-black {
     color: #020304;
 }
-
 
 
 /* webfonts */
