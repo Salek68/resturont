@@ -2,11 +2,54 @@
 a {
     text-decoration: solid;
 }
+
+
 /* Footer styles */
-.border-solid{
+.border-solid {
 
     border-style: solid !important;
 }
-.bg-green{
+
+.bg-green {
     background-color: green;
+}
+
+footer{
+    font-size: medium !important;
+    font-weight: 500 !important;
+}
+
+h6{
+    font-size: medium !important;
+    font-weight: 600 !important;
+}
+
+
+/* color themes */
+.bg-yellow {
+    background-color: #fab718;
+}
+
+.color-yellow {
+    color: #fab718;
+}
+
+.bg-black {
+    background-color: #020304;
+}
+
+.color-black {
+    color: #020304;
+}
+
+
+/* webfonts */
+@font-face {
+    font-family: "vazir";
+    src: url("../webfonts/vazir-font-v16.1.0/Vazir-Light.woff") format("woff"),
+}
+
+/* add fonts to site */
+* {
+    font-family: 'vazir';
 }
