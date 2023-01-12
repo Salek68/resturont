@@ -3,27 +3,35 @@ a {
     text-decoration: solid;
 }
 
-
-/* Footer styles */
-.border-solid {
-
-    border-style: solid !important;
+/* webfonts */
+@font-face {
+    font-family: "vazir";
+    src: url("../webfonts/vazir-font-v16.1.0/Vazir-Light.woff") format("woff"),
 }
 
-.bg-green {
-    background-color: green;
+/* apply fonts to site */
+* {
+    font-family: 'vazir';
 }
 
-footer{
-    font-size: medium !important;
-    font-weight: 500 !important;
+/*-----------------------------------------------*/
+
+/* navbar styles */
+.nav-center {
+    width: 40%;
+
 }
 
-h6{
-    font-size: medium !important;
-    font-weight: 600 !important;
+.nav-item {
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.nav-space {
+    width: 25%;
+}
+
+/* end navbar */
 
 /* color themes */
 .bg-yellow {
@@ -42,14 +50,117 @@ h6{
     color: #020304;
 }
 
+/* end colors */
 
-/* webfonts */
-@font-face {
-    font-family: "vazir";
-    src: url("../webfonts/vazir-font-v16.1.0/Vazir-Light.woff") format("woff"),
+
+/* main1 styles */
+.title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
 }
 
-/* add fonts to site */
-* {
-    font-family: 'vazir';
+.picture {
+    border-radius: 4px;
+    margin-bottom: 50px;
 }
+
+.para {
+    color: gray;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.test{
+    text-align: center;
+
+}
+.about-us {
+    color: #020304;
+    font-weight: bold;
+    background-color: #fab718;
+    border: 1px solid #fab718;
+    cursor: pointer;
+    width: 110px;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 8px 16px;
+    text-align: center;
+   
+}
+
+.full {
+    width: 100%;
+}
+
+.main-1 {
+    margin: 50px 20px 20px 20px;
+}
+
+/*  */
+.title {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.para {
+    color: gray;
+    text-align: center;
+}
+
+.projects-list {
+    padding: 0%;
+    width: 88%;
+    margin: 60px auto;
+}
+
+.project {
+    display: inline-block;
+    margin: 10px 1.8%;
+    width: 21%;
+    
+}
+
+.col-lg-4 .a {
+    margin-top: 50px;
+    /* margin-right: 150px; */
+    max-width: 110%;
+    width: 350px;
+    height: 220px;
+    border-radius: 8px;
+}
+.space-h-10{
+    height: 100px;
+}
+.slider{
+    width: 80%;
+    height: 20%;
+}
+.row .para{
+    margin:40px 0px 40px 0px;
+}
+
+/* Footer styles */
+.border-solid {
+
+    border-style: solid !important;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+footer {
+    font-size: medium !important;
+    font-weight: 500 !important;
+}
+
+h6 {
+    font-size: medium !important;
+    font-weight: 600 !important;
+}
+.space-h-40{
+    height: 400px;
+}
+
+/* end footer */
