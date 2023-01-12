@@ -7,7 +7,6 @@ body {
 .title {
     color: #fff;
     text-align: center;
-    text-decoration: underline;
     font-weight: bold;
 }
 .para {
@@ -37,4 +36,5 @@ body {
     max-width: 110%;
     width: 350px;
     height: 220px;
+    border-radius: 8px;
 }
