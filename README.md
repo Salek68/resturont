@@ -11,5 +11,6 @@
 موارد استفاده شده در پروژه
 
 - [x] BootStrap
+- [x] Font Awesome
 
 ```
