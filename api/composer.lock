@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bc8a2347275fa331d450050e418933ef",
+    "packages": [
+        {
+            "name": "yogeshkoli/user-ip",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yogeshkoli/user-ip.git",
+                "reference": "7077892d0399086ef41c3b0dc3071719cf916a7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yogeshkoli/user-ip/zipball/7077892d0399086ef41c3b0dc3071719cf916a7e",
+                "reference": "7077892d0399086ef41c3b0dc3071719cf916a7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "YogeshKoli\\UserIP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yogesh Koli",
+                    "email": "info@yogeshkoli.com",
+                    "homepage": "http://www.yogeshkoli.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Class to get active user IP Address.",
+            "keywords": [
+                "Get Current user IP Address",
+                "PHP IP Address",
+                "REMOTE_ADDR",
+                "ip address"
+            ],
+            "support": {
+                "issues": "https://github.com/yogeshkoli/user-ip/issues",
+                "source": "https://github.com/yogeshkoli/user-ip/tree/master"
+            },
+            "time": "2017-07-17T09:06:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

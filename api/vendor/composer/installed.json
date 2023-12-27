@@ -1,0 +1,57 @@
+{
+    "packages": [
+        {
+            "name": "yogeshkoli/user-ip",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yogeshkoli/user-ip.git",
+                "reference": "7077892d0399086ef41c3b0dc3071719cf916a7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yogeshkoli/user-ip/zipball/7077892d0399086ef41c3b0dc3071719cf916a7e",
+                "reference": "7077892d0399086ef41c3b0dc3071719cf916a7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "time": "2017-07-17T09:06:53+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "YogeshKoli\\UserIP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yogesh Koli",
+                    "email": "info@yogeshkoli.com",
+                    "homepage": "http://www.yogeshkoli.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Class to get active user IP Address.",
+            "keywords": [
+                "Get Current user IP Address",
+                "PHP IP Address",
+                "REMOTE_ADDR",
+                "ip address"
+            ],
+            "support": {
+                "issues": "https://github.com/yogeshkoli/user-ip/issues",
+                "source": "https://github.com/yogeshkoli/user-ip/tree/master"
+            },
+            "install-path": "../yogeshkoli/user-ip"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
